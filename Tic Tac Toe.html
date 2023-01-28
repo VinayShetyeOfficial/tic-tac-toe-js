@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tic Tac Toe</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="UTF-8">
+        <meta name="vieport" content="width=device-width , initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    
+    <body>
+        
+        <!---- GAME CONTAINER ----->
+        <div class="game-container">
+            
+            <!------ GAME LAYOUT -------->
+            <div class="layout-container" id="layout">
+                
+                <!-------- ROW 1 -------->
+                <div class="symbol" r='0' c='0'><b>0</b></div>
+                <div class="symbol" r='0' c='1'><b>1</b></div>
+                <div class="symbol" r='0' c='2'><b>2</b></div>
+                
+                <!-------- ROW 2 -------->
+                <div class="symbol" r='1' c='0'><b>3</b></div>
+                <div class="symbol" r='1' c='1'><b>4</b></div>
+                <div class="symbol" r='1' c='2'><b>5</b></div>
+                
+                <!-------- ROW 3 -------->
+                <div class="symbol" r='2' c='0'><b>6</b></div>
+                <div class="symbol" r='2' c='1'><b>7</b></div>
+                <div class="symbol" r='2' c='2'><b>8</b></div>
+                
+<!--
+                <*-------- ROW 1 --------*>
+                <div class="symbol" r='0' c='0'><b>0</b></div>
+                <div class="symbol" r='0' c='1'><b>1</b></div>
+                <div class="symbol" r='0' c='2'><b>2</b></div>
+                
+                <*-------- ROW 2 --------*>
+                <div class="symbol" r='1' c='0'><b>3</b></div>
+                <div class="symbol" r='1' c='1'><b>4</b></div>
+                <div class="symbol" r='1' c='2'><b>5</b></div>
+                
+                <*-------- ROW 3 --------*>
+                <div class="symbol" r='2' c='0'><b>6</b></div>
+                <div class="symbol" r='2' c='1'><b>7</b></div>
+                <div class="symbol" r='2' c='2'><b>8</b></div>
+-->
+                
+            </div>
+            
+        </div>
+        
+        <div class="modal-overlay" id="overlay">
+            
+            <div class="modal-dialog" id="modal">
+                <h2 class="modal-title">Warning!!!</h2>
+                <hr>
+                <p>Please save your time and don't even think you're smart.</p>
+                <p><i><b>I'M SMARTER THAN YOU! HA-HA-HA!!!</b></i></p>
+                <p>Wanna try me? Chose :</p>
+                <button class="symbl-btn">X</button>
+                &nbsp;OR&nbsp;
+                <button class="symbl-btn">O</button>
+            </div>
+            
+        </div>
+        
+    </body>
+    
+</html>
