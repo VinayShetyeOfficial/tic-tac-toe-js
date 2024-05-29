@@ -9,7 +9,7 @@ Live Site URL: [Preview](https://6641a1b098c3225adb55cdd9--timely-griffin-e5b269
 A classic Tic-Tac-Toe game that you can play in your web browser. <br>
 Built with HTML, CSS, and JavaScript.
 
-## Features
+## Features   
 - Playable in the web browser
 - Two-player game - X and O
 - Winner detection
