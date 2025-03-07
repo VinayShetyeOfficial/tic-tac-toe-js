@@ -1,40 +1,142 @@
-# Tic-Tac-Toe Game ❌⭕
+# 🎮 Tic-Tac-Toe Game [[Live Preview](https://tic-tac-toe-js-live.netlify.app/)]
+
+A classic two-player Tic-Tac-Toe game built with vanilla JavaScript, featuring clean design and intuitive gameplay.
+
+### Game Preview
 ![Tic-Tac-Toe](https://github.com/VinayShetyeOfficial/TicTacToe-JS/assets/100470361/8df2446f-14ff-4a74-847f-b163bced4be0)
 
-### Links
-Live Site URL: [Preview](https://6641a1b098c3225adb55cdd9--timely-griffin-e5b269.netlify.app/)
+<br>
 
- 
-## Description
-A classic Tic-Tac-Toe game that you can play in your web browser. <br>
-Built with HTML, CSS, and JavaScript.
+## ✨ Features
 
-## Features   
-- Playable in the web browser
-- Two-player game - X and O
-- Winner detection
+### 🎯 Core Gameplay
 
-## How to Play
+- ⭕ Two-player mode (X & O)
+- 🎲 Turn-based gameplay
+- 🏆 Winner detection
+- 🤝 Draw game handling
+- 🔄 Game reset option
 
-Open the `index.html` file in your web browser and start playing. Click on any of the squares to make your move. The game will automatically detect the winner or if it's a tie.
+### 🎨 User Interface
 
-## Installation
+- 📱 Responsive design
+- 🎭 Clean animations
+- 🎨 Modern styling
+- 📊 Game status display
+- 🖱️ Click interactions
 
-1. Clone this repository to your local machine using:
-  ```bash
-  git clone https://github.com/VinayShetyeOfficial/TicTacToe-JS.git
-  ```
+<br>
 
+## 🎮 How to Play
+
+1. **Start Game**
+   - Open in web browser
+   - First player uses 'X'
+   - Second player uses 'O'
+
+2. **Gameplay**
+   - Click empty squares
+   - Take turns placing marks
+   - Form line of 3 to win
+
+<br>
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Modern web browser
+- Basic understanding of web navigation
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/VinayShetyeOfficial/tic-tac-toe-js.git
+   ```
 2. Navigate to the project directory:
-  ```bash
-  cd TicTacToe-JS
-  ```
+   ```sh
+   cd TicTacToe-JS
+   ```
+3. Open in browser:
+   ```sh
+   open index.html
+   ```
 
-3. Open `index.html` in your web browser.
+<br>
 
-### Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## 📁 Project Structure
 
-## License
-This project is open-source and available for anyone to explore, learn from, and contribute to.
-Feel free to customize the content and structure according to your preferences. <br><br> Happy coding! 😊
+```
+TicTacToe-JS/
+│── index.html
+│── css/
+│   └── style.css
+│── js/
+│   └── script.js
+│── assets/
+└── README.md
+```
+
+<br>
+
+## 🎯 Game Logic
+
+### Win Conditions
+- Horizontal lines (3)
+- Vertical lines (3)
+- Diagonal lines (2)
+
+### Game States
+- Player X turn
+- Player O turn
+- Winner declared
+- Draw game
+- Reset state
+
+<br>
+
+## 🛠️ Future Enhancements
+
+Planned features:
+
+- AI opponent
+- Score tracking
+- Game history
+- Sound effects
+- Animations
+- Multiple themes
+
+<br>
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch:
+   ```sh
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your changes:
+   ```sh
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. Push to the branch:
+   ```sh
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request
+
+<br>
+
+> [!NOTE]  
+> This project demonstrates fundamental JavaScript concepts through interactive game development.
+
+<br>
+
+## 📧 Contact
+
+Vinay Shetye - [GitHub](https://github.com/VinayShetyeOfficial) - vinay.shetye.personal@outlook.com <br>
+Project Link: [https://github.com/VinayShetyeOfficial/Tic-Tac-Toe-JS](https://github.com/VinayShetyeOfficial/Tic-Tac-Toe-JS)
+
